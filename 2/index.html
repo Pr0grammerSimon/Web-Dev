@@ -1,0 +1,102 @@
+<html lang="pl">
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+
+        jQuery(function($)
+        {
+            //zresetuj scrolla
+            $.scrollTo(0);
+            $('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+        }
+       );
+
+       //pokaz podczas przewijania
+       $(window).scroll(function()
+       {
+        if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+        else $('.scrollup').fadeOut();
+       }
+
+
+       )
+
+    </script>
+  </head>
+  <body>
+    <div id="naglowek">
+        <img src="Images/NobelP.png" width="130" style="margin-left: 50px; float: left;" class="linki_naglowek">
+        <a href="index.html" class="linki_naglowek" style="color: orange;"><h1>Strona GŁówna</h1></a>
+        <a href="galeria.html" class="linki_naglowek">Galeria</a>
+        <a href="o_noblistach.html" class="linki_naglowek">O noblistach</a>
+        <div style="clear: both;"></div>
+    </div> 
+    <center>
+    <div id="container">
+        <a href="#" class="scrollup"></a>
+        <h1>Chemia I Jej Nobliści</h1><br>
+    <br>
+        <h2>Trochę o Noblu</h2>
+        <p>
+            Laureaci Nagrody Nobla w dziedzinie chemii – laureaci nagrody przyznawanej corocznie osobom, które dokonały odkrycia naukowego lub wynalazku w dziedzinie chemii (jednej z pięciu, w których tę nagrodę ustanowiono), wyświadczając tym największe dobrodziejstwo ludzkości. <br><br>Na początku nagradzano zwykle jedną osobę w danym roku, potem coraz częściej były to dwie lub trzy osoby.<br><br>
+
+Kryterium oceny osiągnięć kandydatów do Nagrody Nobla sformułował Alfred Nobel (1833–1896) w swoim testamencie.<br> Fundusz nagród pochodzi z odsetek od majątku fundatora, którym zarządza Fundacja Nobla.<br><br> Decyzje w sprawach wyróżnień podejmuje Królewska Szwedzka Akademia Nauk, zgodnie ze ściśle opisaną procedurą.<br><br> Ceremonie wręczania nagród odbywają się od roku 1901, zawsze 10 grudnia, co jest uhonorowaniem rocznicy śmierci fundatora (10 grudnia 1896).<br><br>
+        </p>
+    <h2>Najpopularniejsi Nobliści z Chemii</h2>
+    <p>
+        W latach 1901–2023 w gronie laureatów 115 przyznanych Nagród Nobla w dziedzinie chemii znalazły się 193 osoby, z których 63 otrzymały wyróżnienie indywidualne.<br><br> Dwukrotnie wyróżnionymi byli: Frederick Sanger, specjalista w dziedzinie biologii molekularnej (lata 1958 i 1980) i Barry Sharpless (2001 i 2022).<br><br> Średnia wieku laureatów w chwili odbierania nagrody wynosiła 61 lat (najmłodszy z laureatów: Frédéric Joliot-Curie, 35 lat; najstarszy z laureatów: John B. Goodenough, 97 lat).<br><br> 
+        Nagrodę otrzymało 8 kobiet: Maria Skłodowska-Curie (1911), Irene Joliot-Curie (1935), Dorothy Crowfoot Hodgkin (1964), Ada Jonath (2009), Frances Arnold (2018), Emmanuelle Charpentier, Jennifer Doudna (2020) oraz Carolyn Bertozzi (2022).<br><br>
+    </p>
+      <h3>Zapraszam serdecznie do przeanalizowania tabeli poniżej na temat noblistów z dziedziny Chemii </h3><br>
+      <br>
+      <center>
+      <table border="1">
+        <tr>
+            <td><b>NOBLISTA</b></td><td><b>ROK</b></td>
+        </tr>
+        <tr>
+            <td>Frederick Sanger</td><td>1958 i 1980</td>
+        </tr>
+        <tr>
+            <td>Barry Sharpless</td><td>2001 i 2022</td>
+        </tr>
+        <tr>
+            <td>Jacobus Henricus van 't Hoff</td><td>1901</td>
+        </tr>
+        <tr>
+            <td>Maria Skłodowska-Curie</td><td>1911</td>
+        </tr>
+        <tr>
+            <td>Irene Joliot-Curie</td><td>1935</td>
+        </tr>
+        <tr>
+            <td>Dorothy Crowfoot Hodgkin</td><td>1964</td>
+        </tr>
+        <tr>
+            <td>Ada Jonath</td><td>2009</td>
+        </tr>
+        <tr>
+            <td>Frances Arnold</td><td>2018</td>
+        </tr>
+        <tr>
+            <td>Emmanuelle Charpentier, Jennifer Doudna</td><td>2020</td>
+        </tr>
+        <tr>
+            <td>Carolyn Bertozzi </td><td>2022</td>
+        </tr>
+      </table>
+    </center>
+    </div>
+    </center>
+    <footer>
+      &copy Szymon Krzywda 2023
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+<html lang="pl">
+  <head>
+    <link rel="stylesheet" href="noblisci.css" type="text/css"/>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+
+        jQuery(function($)
+        {
+            //zresetuj scrolla
+            $.scrollTo(0);
+            $('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+        }
+       );
+
+       //pokaz podczas przewijania
+       $(window).scroll(function()
+       {
+        if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+        else $('.scrollup').fadeOut();
+       }
+
+
+       )
+
+    </script>
+  </head>
+  <body>
+    <div id="naglowek">
+        <img src="Images/NobelP.png" width="130" style="margin-left: 50px; float: left;" class="linki_naglowek">
+        <a href="o_noblistach.html" class="linki_naglowek" style="color: orange;"><h1>O noblistach</h1></a>
+        <a href="index.html" class="linki_naglowek">Strona Główna</a>
+        <a href="galeria.html" class="linki_naglowek">galeria</a>
+        <div style="clear: both;"></div>
+    </div>
+     <center>
+    <div id="container">
+        <a href="#" class="scrollup"></a>
+      <h1>TROCHĘ O NOBLISTACH!</h1><br>
+      
+      <br>
+      <br>
+      <div id="Frederick">
+        <h3>
+            Frederick Sanger 1958 i 1980
+        </h3>
+        <blockquote>
+            <img src="Images/Frederick-Sanger.jpeg">
+            Frederick Sanger (ur. 13 sierpnia 1918 w Rendcomb, zm. 19 listopada 2013 w Cambridge) – angielski biochemik.<br><br>
+            Jest pierwszą osobą, która dwukrotnie otrzymała Nagrodę Nobla w dziedzinie chemii.<br><br>
+            Opracował pionierską metodę zastosowaną do ustalenia struktury białek, a zwłaszcza insuliny, za co w roku 1958 otrzymał pierwszą Nagrodę Nobla.<br><br> Następnie zajął się kwasami nukleinowymi. <br><br>W roku 1975 opracował enzymatyczną metodę sekwencjonowania DNA zwaną „metodą Sangera” lub „metodą dideoksy”. <br><br>
+            W 1980 za tę pracę przyznano mu nagrodę Nobla po raz drugi.<br><br>
+            
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Sharpless">
+        <h3>Karl Barry Sharpless 2001 i 2022</h3>
+        <blockquote>
+            <img src="Images/Barry_Sharpless.jpeg">
+            Karl Barry Sharpless (ur. 28 kwietnia 1941 w Filadelfii) – chemik amerykański, drugi dwukrotny laureat Nagrody Nobla z chemii (2001 i 2022).<br><br>
+            Jego badania wykorzystano do syntezy leków nasercowych (tzw. beta-blokerów).<br><br> Za prace te został uhonorowany Nagrodą Nobla w 2001 r.<br><br> (druga połowa nagrody przypadła wspólnie Williamowi Knowlesowi i Ryōjiemu Noyoriemu).<br><br>
+            W 2022 ponownie otrzymał Nagrodę Nobla w dziedzinie chemii, wspólnie z Carolyn Bertozzi i Mortenem Meldalem, za rozwój chemii „click” i chemii bioortogonalnej.<br><br>
+        </blockquote> 
+      </div>
+      <hr>
+      <div id="Jacobus">
+        <h3>Jacobus Henricus van 't Hoff 1901</h3>
+        <blockquote>
+            <img src="Images/Vant_Hoff.jpg" width="367">
+            Jacobus Henricus van ’t Hoff (ur. 30 sierpnia 1852 w Rotterdamie, zm. 1 marca 1911 w Steglitz) – holenderski chemik, laureat <b style="color: orange;">pierwszej</b> Nagrody Nobla w dziedzinie chemii w 1901 roku.<br><br>
+            Był trzecim z siedmiorga dzieci Jakuba Henryka van ’t Hoffa i Alidy Jakuby Kolff. <br><br>W 1869 rozpoczął studia na Politechnice w Delfcie. Dyplom uzyskał w 1871.<br><br> Decyzję o poświęceniu się czysto naukowej karierze podjął po wakacyjnej pracy w cukrowni.<br>Perspektywa zostania technologiem żywności była dla niego zbyt przytłaczająca.<br><br>
+            Nagrodę nobla zdobył za odkrycie praw dynamiki chemicznej i ciśnienia osmotycznego.<br><br>
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Maria">
+        <h3>Maria Skłodowska-Curie 1911</h3>
+        <blockquote>
+            <img src="Images/MarieCurie.jpg">
+            Maria Salomea Skłodowska-Curie (ur. 7 listopada 1867 w Warszawie, zm. 4 lipca 1934 w Passy) – polsko-francuska uczona zajmująca się fizyką doświadczalną i chemią fizyczną, podwójna noblistka – laureatka Nagrody Nobla z fizyki (1903) i chemii (1911).<br><br>
+            W 1891 Maria Skłodowska wyjechała z Królestwa Polskiego do Paryża, by podjąć studia na Sorbonie (w XIX wieku kobiety nie mogły studiować na ziemiach polskich); następnie rozwinęła tam swoją karierę naukową.<br><br> Była prekursorką nowej gałęzi chemii – radiochemii.<br> Do jej dokonań należą: rozwinięcie teorii promieniotwórczości, technik rozdzielania izotopów promieniotwórczych oraz odkrycie dwóch nowych pierwiastków – radu i polonu.<br><br> Z jej inicjatywy prowadzono także badania nad leczeniem raka za pomocą promieniotwórczości.<br><br>
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Joliot-Curie">
+        <h3>Irene Joliot-Curie 1935</h3>
+        <blockquote>
+            <img src="Images/Joliot-curie.jpg" width="350">
+            Irène Joliot-Curie (ur. 12 września 1897 w Paryżu, zm. 17 marca 1956 tamże) – francuska fizykochemik, laureatka Nagrody Nobla w dziedzinie chemii, członkini Prezydium Honorowego Polskiego Komitetu Wyzwolenia Narodowego we Francji w 1944 r.<br><br>
+            Córka Polki Marii Skłodowskiej-Curie i Francuza Pierre’a Curie. W 1934 r. wraz z mężem, Frédérikiem Joliot-Curie, wykonała zdjęcie komory mgłowej, na którym uwieczniła zjawisko tworzenia się par elektron-pozyton (pozytonium) z fotonów.<br><br>
+            W 1935 r. otrzymała wraz z mężem Nagrodę Nobla z chemii w uznaniu za odkrycie sztucznej promieniotwórczości – syntezy nowych nuklidów promieniotwórczych.<br><br>
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Dorothy">
+        <h3>Dorothy Crowfoot Hodgkin 1964</h3>
+        <blockquote>
+            <img src="Images/Dorothy_Hodgkin.jpeg" width="350">
+            Dorothy Mary Crowfoot Hodgkin (ur. 12 maja 1910 w Kairze, zm. 29 lipca 1994 w Shipson-on-Stour) – angielska biochemiczka, krystalograf, laureatka Nagrody Nobla w dziedzinie chemii w 1964 roku za wyznaczenie struktury penicyliny i witaminy B12.<br><br>
+            W latach 1928–1932 studiowała chemię i krystalografię na Uniwersytecie w Oksfordzie.<br> Przez następne dwa lata prowadziła w Laboratorium Cavendisha w Cambridge badania krystalograficzne nad sterolami, peptydami i aminokwasami. Następnie ponownie pracowała na Uniwersytecie w Oksfordzie.<br><br> W 1937 roku obroniła doktorat na Uniwersytecie w Cambridge pod kierunkiem profesora Bernala.<br> W 1960 roku została profesorem. Była członkiem The Royal Society.<br><br>
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Ada_Jonath">
+        <h3>Ada Jonath 2009</h3>
+        <blockquote>
+            <img src="Images/Ada_Yonath.jpg">
+            Ada E. Jonath (hebr. ‏עדה יונת‎, ang. Ada Yonath; ur. 22 czerwca 1939 w Jerozolimie)
+            Jej rodzice wyegimrowali ze Zduńskiej Woli do Palestyny w 1933 roku.<br><br>
+
+            Studiowała na Uniwersytecie Hebrajskim w Jerozolimie, gdzie uzyskała bakalaureat w 1962 roku oraz tytuł magistra biochemii w 1964. Stopień doktora uzyskała w 1968 roku w Instytucie Naukowym Weizmana, jej praca doktorska dotyczyła krystalografii. Odbyła staże podoktorskie w Carnegie Mellon University (1969) oraz MIT (1970).<br><br>
+            W 2007 otrzymała Nagrodę Wolfa w dziedzinie chemii, w 2009 Nagrodę Nobla w dziedzinie chemii za badania nad strukturą i funkcją rybosomów (wspólnie z Venkatramanem Ramakrishnanem i Thomasem Steitzem).<br><br>
+            Jest też laureatką Medalu Marii Skłodowskiej-Curie przyznanego jej w 2011 r. przez Polskie Towarzystwo Chemiczne, a w 2015 r. otrzymała tytuł doktora honoris causa Uniwersytetu Medycznego w Łodzi.<br><br>
+        </blockquote>
+      </div>
+    </div>
+    </center>
+    <footer>
+      &copy Szymon Krzywda 2023
+    </footer>
+  </body>
+</html>

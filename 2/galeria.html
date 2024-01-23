@@ -1,0 +1,116 @@
+<html lang="pl">
+  <head>
+    <link rel="stylesheet" href="galeria.css" type="text/css"/>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+
+        jQuery(function($)
+        {
+            //zresetuj scrolla
+            $.scrollTo(0);
+            $('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+        }
+       );
+
+       //pokaz podczas przewijania
+       $(window).scroll(function()
+       {
+        if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+        else $('.scrollup').fadeOut();
+       }
+
+
+       )
+
+    </script>
+  </head>
+  <body>
+    <div id="naglowek">
+        <img src="Images/NobelP.png" width="130" style="margin-left: 50px; float: left;" class="linki_naglowek">
+        <a href="galeria.html" class="linki_naglowek" style="color: orange;"><h1>Galeria</h1></a>
+        <a href="o_noblistach.html" class="linki_naglowek">O noblistach</a>
+        <a href="index.html" class="linki_naglowek">Strona Główna</a>
+        <div style="clear: both;"></div>
+    </div> 
+    <center>
+    <div id="container">
+      <a href="#" class="scrollup"></a>
+      <h1>GALERIA</h1><br>
+      <br>
+      <br>
+      <div id="Frederick">
+        <h3>
+            Frederick Sanger 1958 i 1980
+        </h3>
+        <blockquote>
+          <img src="Images/Frederick-Sanger.jpeg" height="300">
+          <img src="Images/Frederick-Sanger2.jpeg" height="300">
+          <img src="Images/Frederick-Sanger3.avif" height="300">
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Sharpless">
+        <h3>Karl Barry Sharpless 2001 i 2022</h3>
+        <blockquote>
+            <img src="Images/Barry_Sharpless.jpeg" height="300">
+            <img src="Images/Barry_Sharpless2.webp" height="300">
+            <img src="Images/Barry_Sharpless3.webp" height="300">
+        </blockquote> 
+      </div>
+      <hr>
+      <div id="Jacobus">
+        <h3>Jacobus Henricus van 't Hoff 1901</h3>
+        <blockquote>
+            <img src="Images/Vant_Hoff.jpg" height="270">
+            <img src="Images/Vann_Hoff3.jpeg" height="270">
+            <img src="Images/Vant_Hoff2.jpeg" height="270">
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Maria">
+        <h3>Maria Skłodowska-Curie 1911</h3>
+        <blockquote>
+            <img src="Images/MarieCurie.jpg" height="300">
+            <img src="Images/MarieCurie2.jpg" height="300">
+            <img src="Images/MarieCurie.jpeg" height="300">
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Irene">
+        <h3>Irene Joliot-Curie 1935</h3>
+        <blockquote>
+          <img src="Images/Joliot-curie.jpg" height="300">
+          <img src="Images/Irene-Joliot3.jpeg" height="300">
+          <img src="Images/Irene2.jpeg" height="300">
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Dorothy_Crowfoot_Hodgkin">
+        <h3>Dorothy Crowfoot Hodgkin 1964</h3>
+        <blockquote>
+          <img src="Images/Dorothy_Hodgkin.jpeg" height="260">
+          <img src="Images/Dorothy2.jpeg" height="260">
+          <img src="Images/Dorothy3.jpeg" height="260">
+        </blockquote>
+      </div>
+      <hr>
+      <div id="Ada">
+        <h3>Ada Jonath 2009</h3>
+        <blockquote>
+          <img src="Images/Ada_Yonath.jpg" height="270">
+          <img src="Images/Ada2.jpeg" height="270">
+          <img src="Images/Ada3.jpeg" height="270">
+        </blockquote>
+      </div>
+    </div>
+    </center>
+    <footer>
+      &copy Szymon Krzywda 2023
+    </footer>
+  </body>
+</html>

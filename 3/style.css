@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color:  #ffffff;
+    background-color: #303030;
+    background-image: url(Images/tlo2.webp);
+
+}
+header{
+    margin-bottom: 10px;
+}
+nav{
+    width: 100%;
+    height: 200px;
+    margin-top: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+
+}
+nav a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 27px;
+    letter-spacing: 3px;
+}
+
+nav a:hover{
+    opacity: 70%;
+}
+
+main{
+    width: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#Informacje{
+    min-height: 550px;
+}
+#Dane{
+    float: left;
+    background-color: #3095d3;
+    width:fit-content;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 27px;
+    padding: 10px;
+    border-style: solid;
+    margin: 75px;
+    letter-spacing: 1px;
+}
+
+#zdjecie{
+    float: right;
+    margin: 30px;
+    
+}
+
+#O_mnie{
+    background-color: #93c748;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    width: 850px;
+}
+
+
+.hobby{
+    margin: 50px;
+    max-width: 800px;
+    min-height: 600px;
+    background-color: #93c748;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.hobby h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#Images{
+
+    min-width: 500px;
+    max-width: 1200px;
+    min-height: 1500px;
+}
+
+#Images article{
+    margin: 50px;
+    background-color: #3095d3;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+#Images article img{
+    height: 500px;
+    margin: 20px;
+}
