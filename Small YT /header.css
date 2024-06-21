@@ -1,0 +1,60 @@
+body{
+    padding-top: 60px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 27px;
+    position: fixed;
+    background-color: rgb(16, 16, 16);;
+    left: 0;
+    right: 0;
+    top:0;
+    height: 60px;
+    z-index: 1;
+}
+
+#logo-yt{
+    font-size: 18px;
+    width: 200px;
+}
+
+#logo-yt img{
+    height: 50px;
+}
+
+
+#search{
+    flex: 1;
+}
+
+#search input{
+    width: 100%;
+    max-width: 650px;
+    border-radius:100px;
+    height: 34px;
+    background-color: rgb(16, 16, 16);
+    border-color: gray !important;
+    border-style: solid;
+    border-width: 0.5px;
+    color: whitesmoke;
+    padding-left: 20px;
+}
+
+#search-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#icons{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

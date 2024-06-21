@@ -1,0 +1,13 @@
+#sidebar{
+    font-weight: lighter;
+    position: fixed;
+    left: 0;
+    width: 200px;
+
+}
+
+
+
+#sidebar p{
+    padding-left: 40px !important;
+}
